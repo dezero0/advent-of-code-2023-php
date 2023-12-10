@@ -1,0 +1,12 @@
+<?php
+    $data = file_get_contents('input.txt');
+    $data = explode("\n", $data);
+    for ($i = 0; $i < 1000; $i++) {
+        $arr = explode("", $data[$i]);
+        echo $arr[0];
+    } 
+
+
+?>
+
+
